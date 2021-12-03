@@ -1,4 +1,4 @@
 FROM registry.access.redhat.com/ubi8/nginx-118
 ADD index.html /var/www/html/
-chmod 777 /var/www/html/index.html
+RUN chmod 777 /var/www/html/index.html
 CMD nginx -g "daemon off;"
