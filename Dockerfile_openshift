@@ -1,4 +1,4 @@
-FROM ubi8/s2i-core:rhel8.5
+FROM registry.redhat.io/ubi8/s2i-core:rhel8.5
 
 # RHSCL rh-nginx116 image.
 
